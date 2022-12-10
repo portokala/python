@@ -4,10 +4,10 @@ t = Tk()
 def buttonpress():
 	Label(t, font = (60)).grid(row = 5, column = 2)
 t.geometry("600x600")
-t.title("Hai sa o inveselim pe Andreiutza")
-Label(t, text="INSTRUCTIUNI: Apasa butonul acesta pentru a o gadila pe Andreiutza").grid()
+t.title("Join the Game")
+Label(t, text="INSTRUCTIONS: Press the button and see what happens!").grid()
 
-a = ["o gadilam la subrat", "o gadilam pe spate", "o gadilam pe burtica"]
+a = ["Option1", "Option2", "Option3"]
 
 for i in a:
 	j = lambda y = i:buttonpress(y)
