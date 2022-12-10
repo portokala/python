@@ -1,2 +1,2 @@
 # python
-cs50
+cs50 and other mini projects
